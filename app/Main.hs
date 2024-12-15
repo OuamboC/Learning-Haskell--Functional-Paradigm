@@ -68,4 +68,5 @@ makeMove board player row col =
     let (r1, r:rs) = splitAt row board
         (c1, _:cs) = splitAt col r
     in r1 ++ ((c1 ++ [player]) ++ cs) : rs
+    
 >>>>>>> acf3139 ( Initial commit: Setting up the Tic Tac Toe game project in Haskell!)
